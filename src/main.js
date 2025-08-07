@@ -70,7 +70,6 @@ form.addEventListener('submit', async event => {
   }
 }
 
-
     if (data.totalHits > currentPage * 15) {
       showLoadMoreButton();
     } else {
